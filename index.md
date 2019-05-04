@@ -26,3 +26,38 @@
 </p></li></ol>
 </div>
 
+
+<h2 class="header-level-2" >國家公園標示意涵:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+<ol><li><p>
+</p></li></ol>
+</div>
+
+
+
+<h2 class="header-level-2" >公園特色介紹:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+<ol><li><p>
+</p></li></ol>
+</div>
+
+
+<h2 class="header-level-2" >交通資訊:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+
+</div>
+
+
+<h2 class="header-level-2" >基本資訊:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+
+</div>
+
+
+<h2 class="header-level-2" >資料來源:</h2>
+<div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+
+</div>
+
+
+
