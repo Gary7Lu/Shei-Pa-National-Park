@@ -29,9 +29,12 @@
 
 <h2 class="header-level-2" >國家公園標示意涵:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<ol><li><p>
-</p></li></ol>
+<img align="left" style="width: 100px; height: 100px;" src="https://www.spnp.gov.tw/Content/image/logo-round.png" data-type="image">
+<center><p><p>山岳表示以雪山及大霸尖山為代表的山岳型國家公園；蜿蜒連綿的
+  綠水取源遠流長的意義；櫻花鉤吻鮭則是突顯出國家公園生態保育的
+  重責大任；而青山綠水是環保的理想園地，亦顯現國家公園百年大計的事業！</p></p></center>
 </div>
+
 
 
 
