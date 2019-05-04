@@ -40,9 +40,12 @@
 
 <h2 class="header-level-2" >公園特色介紹:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<ol><li><p>
-</p></li></ol>
+<p>1.氣候地形:依桑士偉氏氣候分類標準，寒帶重濕氣候區分布於園區之東部及中部，西部則屬溫帶重濕氣候區。雪山遺留豐富的冰河地形，其中冰斗密集分布在雪山主峰周圍，雪山主峰周圍九個圈谷中，八個是古冰斗遺跡。位在雪山北側坡面的一號圈谷是規模全台最大，二號圈谷則為全台海拔最高。雪山山脈由傾斜甚緩的板岩及砂岩所組成，雪山地壘以雪山為中心，呈放射狀分歧。</p>
+<p>2.生態資源:</p>
+<p>3.</p>
+<p>4.人文資源:.</p>
 </div>
+
 
 
 <h2 class="header-level-2" >交通資訊:</h2>
@@ -51,7 +54,7 @@
 </div>
 
 
-<h2 class="header-level-2" >基本資訊:</h2>
+<h2 class="header-level-2" >住宿資訊:(略)</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
 </div>
