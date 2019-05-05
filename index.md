@@ -99,16 +99,130 @@
 <h2 class="header-level-2" >交通資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
+<p>
+  <table border="1" cellpadding="5" cellspacing="0" width="90%">
+<thead> 
+<tr>
+<th width="31%">名稱 </th><th width="48%">地址 </th><th width="18%">聯絡電話 </th>
+</tr>
+</thead> 
+<tbody>
+  
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+</p>
+
 </div>
 
 
 <h2 class="header-level-2" >住宿資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+  
+<p>
+  <table border="1" cellpadding="5" cellspacing="0" width="90%">
+<thead> 
+<tr>
+<th width="31%">名稱 </th><th width="48%">地址 </th><th width="18%">聯絡電話 </th>
+</tr>
+</thead> 
+<tbody>
+  
 
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+</p>
 </div>
+
 
 <h2 class="header-level-2" >美食資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+
+<p>
+  <table border="1" cellpadding="5" cellspacing="0" width="90%">
+<thead> 
+<tr>
+<th width="31%">名稱 </th><th width="48%">地址 </th><th width="18%">聯絡電話 </th>
+</tr>
+</thead> 
+<tbody>
+  
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+</p>
 
 </div>
 
