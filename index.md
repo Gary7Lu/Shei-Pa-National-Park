@@ -1,4 +1,4 @@
-<center><h1 class="header-level-1" >雪霸國家公園</h1></center>
+<center><h1 style="font-size:40px;font-weight:bold;" >雪霸國家公園</h1></center>
 <p>
   
  <style>
@@ -17,8 +17,56 @@
    font-size:18px;
    font-family:Microsoft JhengHei;
   }
-  
+  h2{
+    font-family:"微軟正黑體";
+    font-weight:bold;
+  }
+  td{
+    font-family:"微軟正黑體";
+    font-size:18px;
+  }
 </style>
+
+<style>
+.button{
+    background-color: #ff87f1;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ #top{
+    position:fixed;
+    right:4%;
+    bottom:18%;
+ }
+ #bottom{
+    position:fixed;
+    right:4%;
+    bottom:10%;
+ }
+</style>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#top').click(function () {
+        $('html, body').animate({scrollTop: 0},1000);
+      });
+      $('#bottom').click(function () {
+        $('html, body').animate({scrollTop:$(document).height()-$(window).height()}, 1000);
+      });
+    });
+  </script>
+</head>
+<body>
+</body>
+<a class="button" id="top" href="#">回頂部</a>
+<a class="button" id="bottom" href="#">到底部</a>
 
 <h2 class="header-level-2" >基本資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
@@ -54,12 +102,12 @@
 </div>
 
 
-<h2 class="header-level-2" >住宿資訊:(略)</h2>
+<h2 class="header-level-2" >住宿資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
 </div>
 
-<h2 class="header-level-2" >美食資訊:(略)</h2>
+<h2 class="header-level-2" >美食資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
 </div>
