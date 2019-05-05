@@ -80,7 +80,7 @@
 <img align="left" style="width: 100px; height: 100px;" src="https://www.spnp.gov.tw/Content/image/logo-round.png" data-type="image">
 <center><p><p>山岳表示以雪山及大霸尖山為代表的山岳型國家公園；蜿蜒連綿的
   綠水取源遠流長的意義；櫻花鉤吻鮭則是突顯出國家公園生態保育的
-  重責大任；而青山綠水是環保的理想園地，亦顯現國家公園百年大計的事業！</p></p></center>
+  重責大任；而青山綠水是環保的理想園地，亦顯現國家公園百年大計的事業。</p></p></center>
 </div>
 
 
@@ -88,10 +88,15 @@
 
 <h2 class="header-level-2" >公園特色介紹:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-<p>1.氣候地形:依桑士偉氏氣候分類標準，寒帶重濕氣候區分布於園區之東部及中部，西部則屬溫帶重濕氣候區。雪山遺留豐富的冰河地形，其中冰斗密集分布在雪山主峰周圍，雪山主峰周圍九個圈谷中，八個是古冰斗遺跡。位在雪山北側坡面的一號圈谷是規模全台最大，二號圈谷則為全台海拔最高。雪山山脈由傾斜甚緩的板岩及砂岩所組成，雪山地壘以雪山為中心，呈放射狀分歧。</p>
+
+<p>1.地質地形:大霸尖山是雪霸國家公園最重要的兩座山之一。大霸尖山的形狀很特殊，好像一個很大的岩石酒桶，這個岩石酒桶是變質砂岩所構成，地層相當於始新世至漸新世之四稜砂岩，山頂則以厚層變質砂岩為主，此層即白冷層頂部的青山段砂岩。在大霸頂部的砂岩層其位態近乎水平，主要是因此岩層恰位於雪霸背斜的軸部位置，因此位態近水平，而大霸尖山山形呈桶狀之原因，主要受砂岩中節理的發育所控制，於地層平緩疊置之箱型背斜軸部發育形成。</p>
+
 <p>2.生態資源:</p>
-<p>3.</p>
-<p>4.人文資源:.</p>
+  
+<p>3.植物資源</p>
+
+<p>4.人文資源:</p>
+
 </div>
 
 
@@ -229,7 +234,10 @@
 
 <h2 class="header-level-2" >資料來源:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
-
+  <ul> 
+  <li><a href="http://np.cpami.gov.tw/">台灣國家公園</a></li><br>
+  <li><a href="https://www.spnp.gov.tw/Site/Conservation">雪霸國家公園</a></li><br>
+  </ul>
 </div>
 
 
