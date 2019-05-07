@@ -105,7 +105,7 @@
   <table border="1" cellpadding="5" cellspacing="0" width="90%">
 <thead> 
 <tr>
-<th width="25%">客運名稱 </th><th width="25%">時刻</th><th width="25%">車程</th><th width="25%">聯絡電話 </th>
+<th width="20%">客運名稱 </th><th width="35%">時刻</th><th width="20%">車程</th><th width="25%">聯絡電話 </th>
 </tr>
 </thead> 
 <tbody>
@@ -123,15 +123,8 @@
 <td>豐原客運台中</td>
 <td>來: 台中--梨山 08:00  梨山--武陵 16:00 
     回: 武陵--梨山--台中6:30-14:30</td>
-<td>6小時</td>
+<td>約6小時</td>
 <td>(04) 2523-4175 #228 </td>
-</tr>
-
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 
 </tbody>
@@ -152,30 +145,30 @@
 </tr>
 </thead> 
 <tbody>
-  
+
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>雪霸休閒農場</td>
+<td>新竹縣五峰鄉桃山村民石380號</td>
+<td>(03)585-6192</td>
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>觀霧加草雪霸休閒農場　</td>
+<td>新竹縣五峰鄉桃山村民石365號</td>
+<td>(09)1209-8508</td>
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>錦水溫泉飯店</td>
+<td>苗栗縣泰安鄉錦水村橫龍山72號</td>
+<td>(03)794-1333</td>
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>愛上喜翁民宿</td>
+<td>新竹縣五峰鄉竹林村4鄰忠興93號</td>
+<td>(09)2125-4250</td>
 </tr>
 
 </tbody>
@@ -191,30 +184,35 @@
   <table border="1" cellpadding="5" cellspacing="0" width="90%">
 <thead> 
 <tr>
-<th width="31%">名稱 </th><th width="48%">地址 </th><th width="18%">聯絡電話 </th>
+<th width="31%">店名</th><th width="48%">地址 </th><th width="18%">聯絡電話 </th>
 </tr>
 </thead> 
 <tbody>
   
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>山度窯烤麵包</td>
+<td>苗栗縣南庄鄉蓬萊村11鄰八卦力16-8號</td>
+<td>(09)3646-6779</td>
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>南庄抹茶冰</td>
+<td>苗栗縣南庄鄉文化路6號</td>
+<td>(09)3340-2346</td>
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>向天湖738文創餐坊</td>
+<td>台灣南庄鄉東河村16鄰向天湖25號</td>
+<td>(03)782-3922</td>
 </tr>
 
+<tr>
+<td>坪溪河畔咖啡屋</td>
+<td>台灣竹東鎮瑞峰里1鄰5之8號</td>
+<td>(03)594-9063</td>
+</tr>
 
 
 </tbody>
@@ -229,6 +227,8 @@
   <ul> 
   <li><a href="http://np.cpami.gov.tw/">台灣國家公園</a></li><br>
   <li><a href="https://www.spnp.gov.tw/Site/Conservation">雪霸國家公園</a></li><br>
+  <li><a href="https://www.tripadvisor.com.tw/Restaurant_Review-g13808870-d7890852-Reviews-It_s_Alice_Cafe_Food-Zhudong_Hsinchu_County.html"> tripadvisor</li><br>
+   <li><a href="https://www.booking.com/searchresults.zh-tw.html?aid=359627;label=a-no-xdKAxEc2lFYkNsZg1VPVOQS308735400373%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-297601666995%3Akwd-610371119756%3Alp1012825%3Ali%3Adec%3Adm;sid=fabd237e6184d11bf9506341efb96361;city=-287493;hyb_red=1;keep_landing=1;redirected=1;redirected_from_city=1;source=city;src=city&gclid=EAIaIQobChMI_cKn0tyI4gIVTQUqCh2JsgN6EAAYASAAEgKp5_D_BwE&"></a>Booking.com</li>
   </ul>
 </div>
 
