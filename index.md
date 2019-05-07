@@ -63,7 +63,19 @@
     });
   </script>
 </head>
+
+<html>
+<head>
+<link rel="stylesheet" href="jquery.mobile.min.css">
+<script src="jquery.min.js"></script>
+<script src="jquery.min.mobile.js"></script>
+</head>  
+
 <body>
+ <div data-role="collapsible">
+<h2>實驗:</h2>
+   <p>002</p>
+</div>
 </body>
 <a class="button" id="top" href="#">回頂部</a>
 <a class="button" id="bottom" href="#">到底部</a>
@@ -232,10 +244,6 @@
   </ul>
 </div>
 
-<div data-role="collapsible">
-<h2>實驗:</h2>
-   <p>002</p>
-</div>
 
 
 
