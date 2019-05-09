@@ -61,9 +61,6 @@
     right: 5%;
   }
  
-</style>
-
-<style>
 .button{
     background-color: #ff87f1;
     border: 2px solid black;
@@ -86,6 +83,7 @@
     bottom:10%;
  }
 </style>
+
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script>
