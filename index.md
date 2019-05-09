@@ -201,7 +201,7 @@
 
         <body>
 
-            <div class="flip-box">
+            <div class="flip-box" align="left" >
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <img style="width:300px;height:200px" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2019/03/15/20190315-055241_U9180_M506085_b5ed.jpg?itok=OXKypYWw">
@@ -212,7 +212,7 @@
                 </div>
             </div>
 
-            <div class="flip-box">
+            <div class="flip-box" align="right">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <img style="width:300px;height:200px" src="http://www.herpera.com/images/fcivet3.jpg">
