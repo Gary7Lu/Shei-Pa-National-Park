@@ -83,7 +83,8 @@
     bottom:10%;
  }
 </style>
-
+<html>
+  
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script>
@@ -127,20 +128,7 @@
 <h1 id="F">美食資訊</h1>
 </body>
 
-<div class="button-bar">
-<a id ="flip">選單</a>
-<a class="button" id="a" href="#">基本資訊</a>
-<a class="button" id="b" href="#">標示意涵</a>
-<a class="button" id="c" href="#">特色介紹</a>
-<a class="button" id="d" href="#">交通資訊</a>
-<a class="button" id="e" href="#">住宿資訊</a>
-<a class="button" id="f" href="#">美食資訊</a>
-<a class="button" id="top" href="#">網頁頂端</a>
-<a class="button" id="bottom" href="#">網頁底部</a>
-<a class="button" id="home" href="#">返回主頁</a>
-</div>
 
-</html>
 
 <h2 class="header-level-2" >基本資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
@@ -305,6 +293,21 @@
   <li><a href="https://www.booking.com/searchresults.zh-tw.html?aid=359627;label=a-no-xdKAxEc2lFYkNsZg1VPVOQS308735400373%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-297601666995%3Akwd-610371119756%3Alp1012825%3Ali%3Adec%3Adm;sid=fabd237e6184d11bf9506341efb96361;city=-287493;hyb_red=1;keep_landing=1;redirected=1;redirected_from_city=1;source=city;src=city&gclid=EAIaIQobChMI_cKn0tyI4gIVTQUqCh2JsgN6EAAYASAAEgKp5_D_BwE&">Booking.com</a></li>
   </ul>
 </div>
+
+<div class="button-bar">
+<a id ="flip">選單</a>
+<a class="button" id="a" href="#">基本資訊</a>
+<a class="button" id="b" href="#">標示意涵</a>
+<a class="button" id="c" href="#">特色介紹</a>
+<a class="button" id="d" href="#">交通資訊</a>
+<a class="button" id="e" href="#">住宿資訊</a>
+<a class="button" id="f" href="#">美食資訊</a>
+<a class="button" id="top" href="#">網頁頂端</a>
+<a class="button" id="bottom" href="#">網頁底部</a>
+<a class="button" id="home" href="#">返回主頁</a>
+</div>
+
+</html>
 
 
 
