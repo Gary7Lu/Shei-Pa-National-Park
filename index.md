@@ -165,10 +165,10 @@
             <table border="1" cellpadding="5" cellspacing="0" width="90%">
                 <thead>
                     <tr>
-                        <th width="20%">客運名稱 </th>
-                        <th width="35%">時刻</th>
-                        <th width="20%">車程</th>
-                        <th width="25%">聯絡電話 </th>
+                        <th width="20%">客運公司 </th>
+                        <th width="5%"> 路程</th>
+                        
+                        <th width="25%">聯絡電話</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -176,14 +176,14 @@
                     <tr>
                         <td>國光客運</td>
                         <td>宜蘭 → 武陵農場 07:00、12:40 武陵農場 → 宜蘭 09:20、14:05</td>
-                        <td>2小時45分</td>
+                        
                         <td>(08)0001-0138</td>
                     </tr>
 
                     <tr>
                         <td>豐原客運台中</td>
                         <td>來: 台中--梨山 08:00 梨山--武陵 16:00 回: 武陵--梨山--台中6:30-14:30</td>
-                        <td>約6小時</td>
+                        
                         <td>(04) 2523-4175 #228 </td>
                     </tr>
 
