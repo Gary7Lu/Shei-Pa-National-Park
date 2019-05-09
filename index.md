@@ -204,10 +204,10 @@
             <div class="flip-box">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
-                        <img style="width:300px;height:200px" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2019/03/15/20190315-055241_U9180_M506085_b5ed.jpg?itok=OXKypYWw" title="櫻花鉤吻鮭">
+                        <img style="width:300px;height:200px" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2019/03/15/20190315-055241_U9180_M506085_b5ed.jpg?itok=OXKypYWw">
                     </div>
                     <div class="flip-box-back">
-                        <img style="width:300px;height:200px" src="http://np.cpami.gov.tw/images/com_fwgallery/files/516/Photo_V6Y9E.jpg" title="冠羽畫眉" title="冠羽畫眉">
+                        <img style="width:300px;height:200px" src="http://np.cpami.gov.tw/images/com_fwgallery/files/516/Photo_V6Y9E.jpg">
                     </div>
                 </div>
             </div>
@@ -215,10 +215,10 @@
             <div class="flip-box">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
-                        <img style="width:300px;height:200px" src="http://www.herpera.com/images/fcivet3.jpg" title="白鼻心">
+                        <img style="width:300px;height:200px" src="http://www.herpera.com/images/fcivet3.jpg">
                     </div>
                     <div class="flip-box-back">
-                        <img style="width:300px;height:200px" src="https://s.yimg.com/ny/api/res/1.2/A7zq9ob.LdgorO1dwZYqow--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzAzO2g9NTcx/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/5409c727781755e0bbe35d393696ee13" title="台灣獼猴">
+                        <img style="width:300px;height:200px" src="https://s.yimg.com/ny/api/res/1.2/A7zq9ob.LdgorO1dwZYqow--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzAzO2g9NTcx/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/5409c727781755e0bbe35d393696ee13">
                     </div>
                 </div>
             </div>
