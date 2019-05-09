@@ -65,8 +65,47 @@
             top: 1%;
             right: 5%;
         }
-       
-    </style>
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+
     <html>
 
     <head>
@@ -152,9 +191,28 @@
 
         <p>1.地質地形:大霸尖山是雪霸國家公園最重要的兩座山之一。大霸尖山的形狀很特殊，好像一個很大的岩石酒桶，這個岩石酒桶是變質砂岩所構成，山頂則以厚層變質砂岩為主，此層即白冷層頂部的青山段砂岩。在大霸頂部的砂岩層其位態近乎水平，主要是因此岩層恰位於雪霸背斜的軸部位置;而大霸尖山山形呈桶狀之原因，主要受砂岩中節理的發育所控制，於地層平緩疊置之箱型背斜軸部發育形成。</p>
 
-        <p>2.動物資源:櫻花鉤吻鮭 冠羽畫眉 台灣森鼠 山椒魚</p>
-
+        <p>2.動物資源:</p>
+        <p>鳥類:冠羽畫眉為園區內常見的特有種鳥類，全區已紀錄有154種鳥類，包括台灣山鷓鴣、黑長尾雉、台灣噪眉、冠羽畫眉、台灣叢樹鶯等台灣特有種。</p>
+        <p>魚類:在大安溪系、大甲溪系、蘭陽溪系、德基水庫等地共調查發現了17種魚類。大甲溪是台灣魚類分布的海拔最高點，一般溪魚分布的上限約為1,800公尺，分布於大甲溪上游的櫻花鉤吻鮭則可達1,800公尺以上。台灣石賓、台灣間爬岩鰍、櫻花鉤吻鮭、台灣纓口鰍、明潭吻蝦虎魚、短吻紅斑蝦虎魚為已紀錄到的台灣特有種。</p>
+        <p>哺乳動物:園區的哺乳動物共紀錄58種，大型的有台灣黑熊、台灣野山羊、台灣野豬、台灣水鹿；中型的有台灣獼猴、山羌、石虎、白鼻心；小型的則有穿山甲、食蟹獴、鼬獾、黃喉貂、各種鼠類及蝙蝠。其中，台灣黑熊為野生動物保育法所列瀕臨絕種保育類動物，台灣水鹿在野外的族群量亦極低，台灣野山羊亦屬珍貴稀有保育類動物</p>
         <p>3.植物資源:大多屬於東亞植物地區之特有屬，推測其於冰河時期並未受北方大陸冰河蔓延之破壞，使大霸尖山、雪山稜線附近高山留存了許多地質年代以來的孑遺植物，如自第三紀上新世(距今約180萬年)留存至今的臺灣檫樹，主要產於園內的大鹿林道、大雪山林道、雪見等地區，而檫樹屬植物全世界僅有三種，分別產於北美、大陸及臺灣，故有其特殊之學術地位。</p>
+        <p>4.人文資源:雪見鄰近地區具有十分豐富薈萃的人文史蹟資源。其原住民文化主要為泰雅族之北勢群，分布於大安溪中游兩岸。雪見地區瀰漫著濃厚的文化特色，其中以北坑溪古道最具盛名，原為大甲溪泰雅族原住民遷移遊獵的山徑，古道中泰雅族原住民及日治時期所遺留下來的歷史事件與遺址，是瞭解日治時期竹苗地區樟腦採集與理蕃政策的最佳地點。</p>
+        <body>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+    <img style="width:300px;height:200px"   src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2019/03/15/20190315-055241_U9180_M506085_b5ed.jpg?itok=OXKypYWw">
+    </div>
+    <div class="flip-box-back">
+     <img style="width:300px;height:200px"   src="https://s.yimg.com/ny/api/res/1.2/A7zq9ob.LdgorO1dwZYqow--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzAzO2g9NTcx/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/5409c727781755e0bbe35d393696ee13">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
 
     </div>
 
@@ -166,7 +224,7 @@
                 <thead>
                     <tr>
                         <th width="20%">客運公司 </th>
-                        <th width="5%"> 路程</th>
+                        <th width="55%"> 路程</th>
                         
                         <th width="25%">聯絡電話</th>
                     </tr>
