@@ -142,8 +142,7 @@
 <a class="button" id="home" href="#">返回主頁</a>
 </div>
 
-<a class="button" id="top" href="#">回頂部</a>
-<a class="button" id="bottom" href="#">到底部</a>
+</html>
 
 <h2 class="header-level-2" >基本資訊:</h2>
 <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
