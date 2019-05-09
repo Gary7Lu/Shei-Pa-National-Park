@@ -223,9 +223,6 @@
                 </div>
             </div>
 
-    </div>
-
-    </div>
 
     <h2 class="header-level-2" id="D">交通資訊:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
