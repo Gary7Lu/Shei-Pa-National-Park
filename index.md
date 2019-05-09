@@ -120,7 +120,7 @@
         </script>
     </head>
 
-    <h2 class="header-level-2">基本資訊:</h2>
+    <h2 class="header-level-2" id="A">基本資訊:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <ol>
             <li>
@@ -136,7 +136,7 @@
         </ol>
     </div>
 
-    <h2 class="header-level-2">國家公園標示意涵:</h2>
+    <h2 class="header-level-2" id="B">國家公園標示意涵:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <img align="left" style="width: 100px; height: 100px;" src="https://www.spnp.gov.tw/Content/image/logo-round.png" data-type="image">
         <center>
@@ -147,7 +147,7 @@
         </center>
     </div>
 
-    <h2 class="header-level-2">公園特色介紹:</h2>
+    <h2 class="header-level-2" id="C">公園特色介紹:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
         <p>1.地質地形:大霸尖山是雪霸國家公園最重要的兩座山之一。大霸尖山的形狀很特殊，好像一個很大的岩石酒桶，這個岩石酒桶是變質砂岩所構成，山頂則以厚層變質砂岩為主，此層即白冷層頂部的青山段砂岩。在大霸頂部的砂岩層其位態近乎水平，主要是因此岩層恰位於雪霸背斜的軸部位置;而大霸尖山山形呈桶狀之原因，主要受砂岩中節理的發育所控制，於地層平緩疊置之箱型背斜軸部發育形成。</p>
@@ -158,7 +158,7 @@
 
     </div>
 
-    <h2 class="header-level-2">交通資訊:</h2>
+    <h2 class="header-level-2" id="D">交通資訊:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
         <p>
@@ -193,7 +193,7 @@
 
     </div>
 
-    <h2 class="header-level-2">住宿資訊:</h2>
+    <h2 class="header-level-2" id="E">住宿資訊:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
         <p>
@@ -236,7 +236,7 @@
         </p>
     </div>
 
-    <h2 class="header-level-2">美食資訊:</h2>
+    <h2 class="header-level-2" id="F">美食資訊:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
         <p>
