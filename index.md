@@ -29,7 +29,7 @@
             font-family: "微軟正黑體";
             font-size: 18px;
         }
-        
+        /*button*/
         .button {
             background-color: #a0fdff;
             border: 2px solid black;
@@ -104,6 +104,131 @@
             background-color: dodgerblue;
             color: white;
             transform: rotateY(180deg);
+        }
+        /*light box*/
+         * {
+            box-sizing: border-box
+        }
+        
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0
+        }
+        
+        .mySlides {
+            display: none
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        /* Slideshow container */
+        
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Caption text */
+        
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+        /* Number text (1/3 etc) */
+        
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        /* The dots/bullets/indicators */
+        
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+        /* Fading animation */
+        
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+        
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+            to {
+                opacity: 1
+            }
+        }
+        /* On smaller screens, decrease text size */
+        
+        @media only screen and (max-width: 300px) {
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
         }
     </style>
 
@@ -196,35 +321,93 @@
         <p>鳥類:冠羽畫眉為園區內常見的特有種鳥類，全區已紀錄有154種鳥類，包括台灣山鷓鴣、黑長尾雉、台灣噪眉、冠羽畫眉、台灣叢樹鶯等台灣特有種。</p>
         <p>魚類:在大安溪系、大甲溪系、蘭陽溪系、德基水庫等地共調查發現了17種魚類。大甲溪是台灣魚類分布的海拔最高點，一般溪魚分布的上限約為1,800公尺，分布於大甲溪上游的櫻花鉤吻鮭則可達1,800公尺以上。台灣石賓、台灣間爬岩鰍、櫻花鉤吻鮭、台灣纓口鰍、明潭吻蝦虎魚、短吻紅斑蝦虎魚為已紀錄到的台灣特有種。</p>
         <p>哺乳動物:園區的哺乳動物共紀錄58種，大型的有台灣黑熊、台灣野山羊、台灣野豬、台灣水鹿；中型的有台灣獼猴、山羌、石虎、白鼻心；小型的則有穿山甲、食蟹獴、鼬獾、黃喉貂、各種鼠類及蝙蝠。其中，台灣黑熊為野生動物保育法所列瀕臨絕種保育類動物，台灣水鹿在野外的族群量亦極低，台灣野山羊亦屬珍貴稀有保育類動物</p>
-        <body>
 
-            <div class="flip-box" align="center" >
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img style="width:300px;height:200px" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2019/03/15/20190315-055241_U9180_M506085_b5ed.jpg?itok=OXKypYWw">
-                    </div>
-                    <div class="flip-box-back">
-                        <img style="width:300px;height:200px" src="http://np.cpami.gov.tw/images/com_fwgallery/files/516/Photo_V6Y9E.jpg">
-                    </div>
-                </div>
-            </div>
-           </body>
         <p>3.植物資源:大多屬於東亞植物地區之特有屬，推測其於冰河時期並未受北方大陸冰河蔓延之破壞，使大霸尖山、雪山稜線附近高山留存了許多地質年代以來的孑遺植物，如自第三紀上新世(距今約180萬年)留存至今的臺灣檫樹，主要產於園內的大鹿林道、大雪山林道、雪見等地區，而檫樹屬植物全世界僅有三種，分別產於北美、大陸及臺灣，故有其特殊之學術地位。</p>
         <p>4.人文資源:雪見鄰近地區具有十分豐富薈萃的人文史蹟資源。其原住民文化主要為泰雅族之北勢群，分布於大安溪中游兩岸。雪見地區瀰漫著濃厚的文化特色，其中以北坑溪古道最具盛名，原為大甲溪泰雅族原住民遷移遊獵的山徑，古道中泰雅族原住民及日治時期所遺留下來的歷史事件與遺址，是瞭解日治時期竹苗地區樟腦採集與理蕃政策的最佳地點。</p>
+           
+            <p></p>
+            <div class="slideshow-container">
 
-        <body>
-            <div class="flip-box" align="center">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img style="width:300px;height:200px" src="http://www.herpera.com/images/fcivet3.jpg">
-                    </div>
-                    <div class="flip-box-back">
-                        <img style="width:300px;height:200px" src="https://s.yimg.com/ny/api/res/1.2/A7zq9ob.LdgorO1dwZYqow--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzAzO2g9NTcx/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/5409c727781755e0bbe35d393696ee13">
-                    </div>
-                </div>
-            </div>
-            
-           </body> 
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img style="width:100%;height:400px" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2019/03/15/20190315-055241_U9180_M506085_b5ed.jpg?itok=OXKypYWw">
+            <div class="text">櫻花鉤吻鮭</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img style="width:100%;height:400px" src="http://np.cpami.gov.tw/images/com_fwgallery/files/516/Photo_V6Y9E.jpg" >
+            <div class="text"> </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img style="width:100%;height:400px" src="http://www.herpera.com/images/fcivet3.jpg">
+            <div class="text"> </div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img style="width:100%;height:400px" src="https://s.yimg.com/ny/api/res/1.2/A7zq9ob.LdgorO1dwZYqow--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzAzO2g9NTcx/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/5409c727781755e0bbe35d393696ee13">
+            <div class="text"> 台灣獼猴</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img style="width:100%;height:400px" src="">
+            <div class="text"></div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        /*<span class="dot" onclick="currentSlide(5)"></span>*/
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+        
+        
+        
+        <p></p>
     </div>
 
     <h2 class="header-level-2" id="D">交通資訊:</h2>
