@@ -198,7 +198,7 @@
         <p>哺乳動物:園區的哺乳動物共紀錄58種，大型的有台灣黑熊、台灣野山羊、台灣野豬、台灣水鹿；中型的有台灣獼猴、山羌、石虎、白鼻心；小型的則有穿山甲、食蟹獴、鼬獾、黃喉貂、各種鼠類及蝙蝠。其中，台灣黑熊為野生動物保育法所列瀕臨絕種保育類動物，台灣水鹿在野外的族群量亦極低，台灣野山羊亦屬珍貴稀有保育類動物</p>
         <body>
 
-            <div class="flip-box" align="left" >
+            <div class="flip-box" align="center" >
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <img style="width:300px;height:200px" src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2019/03/15/20190315-055241_U9180_M506085_b5ed.jpg?itok=OXKypYWw">
@@ -213,7 +213,7 @@
         <p>4.人文資源:雪見鄰近地區具有十分豐富薈萃的人文史蹟資源。其原住民文化主要為泰雅族之北勢群，分布於大安溪中游兩岸。雪見地區瀰漫著濃厚的文化特色，其中以北坑溪古道最具盛名，原為大甲溪泰雅族原住民遷移遊獵的山徑，古道中泰雅族原住民及日治時期所遺留下來的歷史事件與遺址，是瞭解日治時期竹苗地區樟腦採集與理蕃政策的最佳地點。</p>
 
         <body>
-            <div class="flip-box" align="right">
+            <div class="flip-box" align="center">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <img style="width:300px;height:200px" src="http://www.herpera.com/images/fcivet3.jpg">
