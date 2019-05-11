@@ -370,8 +370,8 @@
         <a class="button" id="d" href="#">交通資訊</a>
         <a class="button" id="e" href="#">住宿資訊</a>
         <a class="button" id="f" href="#">美食資訊</a>
-        <a class="button" id="top" href="#">回頂端</a>
-        <a class="button" id="bottom" href="#">回底部</a>
+        <a class="button" id="top" href="#">網頁頂端</a>
+        <a class="button" id="bottom" href="#">網頁底部</a>
         <a class="button" id="home" href="#">返回主頁</a>
     </div>
 
