@@ -351,12 +351,7 @@
             <img style="width:100%;height:400px" src="https://s.yimg.com/ny/api/res/1.2/A7zq9ob.LdgorO1dwZYqow--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzAzO2g9NTcx/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/5409c727781755e0bbe35d393696ee13">
             <div class="text"> 台灣獼猴</div>
         </div>
-        
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 5</div>
-            <img style="width:100%;height:400px" src="">
-            <div class="text"></div>
-        </div>
+    
         
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -369,7 +364,6 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
     </div>
 
     <script>
