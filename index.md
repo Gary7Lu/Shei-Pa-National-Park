@@ -547,35 +547,118 @@
 
     <h2 class="header-level-2" id="D">交通資訊:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    
+     <body>
 
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, '觀光公車')">觀光公車</button>
+        <button class="tablinks" onclick="openCity(event, '租車')">租車</button>
+        <button class="tablinks" onclick="openCity(event, '空中運輸')">空中運輸</button>
+
+    </div>
+
+    <div id="觀光公車" class="tabcontent">
+        <h2 style="color:#FF8800;font-weight:bold;">觀光公車:</h2>
+        <p>水頭翟山線 電話:082-332-721 </p>
+        <p><img src="http://www.kmnp.gov.tw/filesys/image/sys/line1.gif" title="水頭翟山線"></p>
+        <p>古寧頭戰場線 電話:082-332-721 </p>
+        <p><img src="http://www.kmnp.gov.tw/filesys/image/sys/line2.gif" title="古寧頭戰場線"></p>
+    </div>
+
+    <div id="租車" class="tabcontent">
+        <h2 style="color:#FF8800;font-weight:bold;">租車:</h2>
         <p>
             <table border="1" cellpadding="5" cellspacing="0" width="90%">
                 <thead>
                     <tr>
-                        <th width="20%">客運公司 </th>
-                        <th width="55%"> 路程</th>
-
-                        <th width="25%">聯絡電話</th>
+                        <th width="31%">租車行名稱 </th>
+                        <th width="47%">地址 </th>
+                        <th width="22%">聯絡電話 </th>
                     </tr>
                 </thead>
                 <tbody>
 
                     <tr>
-                        <td>國光客運</td>
-                        <td>宜蘭 → 武陵農場 07:00、12:40 武陵農場 → 宜蘭 09:20、14:05</td>
-
-                        <td>(08)0001-0138</td>
+                        <td>大新小客車租賃行</td>
+                        <td>金門縣金城鎮民權路65巷1號</td>
+                        <td>082-324128</td>
                     </tr>
 
                     <tr>
-                        <td>豐原客運台中</td>
-                        <td>來: 台中--梨山 08:00 梨山--武陵 16:00 回: 武陵--梨山--台中6:30-14:30</td>
-                        <td>(04) 2523-4175 #228 </td>
+                        <td>汎德小客車租賃中心</td>
+                        <td>金門縣金湖鎮新武德新莊4號</td>
+                        <td>082-334082</td>
+                    </tr>
+
+                    <tr>
+                        <td>金馬小客車租賃社</td>
+                        <td>金門縣金城鎮民生路1-1號</td>
+                        <td>082-324518</td>
+                    </tr>
+
+                    <tr>
+                        <td>冠城汽車租賃行</td>
+                        <td>金門縣金城鎮民族路7-7號</td>
+                        <td>082-323390</td>
                     </tr>
 
                 </tbody>
             </table>
         </p>
+    </div>
+
+    <div id="空中運輸" class="tabcontent">
+        <h2 style="color:#FF8800;font-weight:bold;">空中運輸:</h2>
+
+        <table border="1" cellpadding="5" cellspacing="0" width="90%">
+            <thead>
+                <tr>
+                    <th width="31%">航空公司 </th>
+                    <th width="18%">聯絡電話 </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>立榮航空</td>
+                    <td>(07)791-1000</td>
+                </tr>
+
+                <tr>
+                    <td>華信航空</td>
+                    <td>(02)412-8008</td>
+                </tr>
+
+         
+
+            </tbody>
+        </table>
+        
+    </div>
+    
+    
+
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen1" and click on it
+        document.getElementById("defaultOpen1").click();
+    </script>
+
+</body>
 
     </div>
 
