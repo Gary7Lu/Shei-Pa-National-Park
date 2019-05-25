@@ -1,6 +1,4 @@
-<center>
-    <h1 style="font-size:40px;font-weight:bold;">雪霸國家公園</h1></center>
-<p>
+
 
     <style>
         html {
@@ -328,7 +326,20 @@
             });
         </script>
     </head>
+    
+     <body> 
+    <div id="google_translate_element"></div>
 
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'zh-tw', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" ></script>
+
+<center>
+    <h1 style="font-size:40px;font-weight:bold;">雪霸國家公園</h1></center>
     <h2 class="header-level-2" id="A">基本資訊:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <ol>
@@ -661,7 +672,7 @@
             <li><a href="https://www.booking.com/searchresults.zh-tw.html?aid=359627;label=a-no-xdKAxEc2lFYkNsZg1VPVOQS308735400373%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-297601666995%3Akwd-610371119756%3Alp1012825%3Ali%3Adec%3Adm;sid=fabd237e6184d11bf9506341efb96361;city=-287493;hyb_red=1;keep_landing=1;redirected=1;redirected_from_city=1;source=city;src=city&gclid=EAIaIQobChMI_cKn0tyI4gIVTQUqCh2JsgN6EAAYASAAEgKp5_D_BwE&">Booking.com</a></li>
         </ul>
     </div>
-
+    </body>
     <div class="button-bar">
         <a id="flip">選單</a>
         <a class="button" id="a" href="#">基本資訊</a>
