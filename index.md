@@ -551,89 +551,36 @@
      <body>
 
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, '觀光公車')">觀光公車</button>
-        <button class="tablinks" onclick="openCity(event, '租車')">租車</button>
-        <button class="tablinks" onclick="openCity(event, '空中運輸')">空中運輸</button>
+        <button class="tablinks" onclick="openCity(event, '觀霧遊憩區')">觀霧遊憩區</button>
+        <button class="tablinks" onclick="openCity(event, '雪見遊憩區')">雪見遊憩區</button>
+        <button class="tablinks" onclick="openCity(event, '武陵遊客中心')">武陵遊客中心</button>
 
     </div>
 
-    <div id="觀光公車" class="tabcontent">
-        <h2 style="color:#FF8800;font-weight:bold;">觀光公車:</h2>
-        <p>水頭翟山線 電話:082-332-721 </p>
-        <p><img src="http://www.kmnp.gov.tw/filesys/image/sys/line1.gif" title="水頭翟山線"></p>
-        <p>古寧頭戰場線 電話:082-332-721 </p>
-        <p><img src="http://www.kmnp.gov.tw/filesys/image/sys/line2.gif" title="古寧頭戰場線"></p>
+    <div id="觀霧遊憩區" class="tabcontent">
+        <h2 style="color:#FF8800;font-weight:bold;">自行開車</h2>
+        <p>交通：前往觀霧旅遊行程路線，可行駛國道三號高速公路，於竹林交流道下後往竹東方向前進，接新竹縣122縣道，經五峰往清泉至土場後前行大鹿林道主線至觀霧。另由國道一號中山高速公路新竹公道五交流道，銜接台68線東西向快速道路可快速到達竹東接竹縣122縣道。 </p>
     </div>
 
-    <div id="租車" class="tabcontent">
-        <h2 style="color:#FF8800;font-weight:bold;">租車:</h2>
-        <p>
-            <table border="1" cellpadding="5" cellspacing="0" width="90%">
-                <thead>
-                    <tr>
-                        <th width="31%">租車行名稱 </th>
-                        <th width="47%">地址 </th>
-                        <th width="22%">聯絡電話 </th>
-                    </tr>
-                </thead>
-                <tbody>
-
-                    <tr>
-                        <td>大新小客車租賃行</td>
-                        <td>金門縣金城鎮民權路65巷1號</td>
-                        <td>082-324128</td>
-                    </tr>
-
-                    <tr>
-                        <td>汎德小客車租賃中心</td>
-                        <td>金門縣金湖鎮新武德新莊4號</td>
-                        <td>082-334082</td>
-                    </tr>
-
-                    <tr>
-                        <td>金馬小客車租賃社</td>
-                        <td>金門縣金城鎮民生路1-1號</td>
-                        <td>082-324518</td>
-                    </tr>
-
-                    <tr>
-                        <td>冠城汽車租賃行</td>
-                        <td>金門縣金城鎮民族路7-7號</td>
-                        <td>082-323390</td>
-                    </tr>
-
-                </tbody>
-            </table>
-        </p>
-    </div>
-
-    <div id="空中運輸" class="tabcontent">
-        <h2 style="color:#FF8800;font-weight:bold;">空中運輸:</h2>
-
-        <table border="1" cellpadding="5" cellspacing="0" width="90%">
-            <thead>
-                <tr>
-                    <th width="31%">航空公司 </th>
-                    <th width="18%">聯絡電話 </th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>立榮航空</td>
-                    <td>(07)791-1000</td>
-                </tr>
-
-                <tr>
-                    <td>華信航空</td>
-                    <td>(02)412-8008</td>
-                </tr>
-
-         
-
-            </tbody>
-        </table>
+    <div id="雪見遊憩區" class="tabcontent">
+        <h2 style="color:#FF8800;font-weight:bold;">方式一:</h2>
         
+        <p> 從苗栗、大湖地區進入由北部地區南下之車輛，可由國道１號高速公路下苗栗交流道接台72號快速道路，或經台6、台3線經汶水雪霸國家公園管理處進入大湖，再沿苗61線經中興檢查哨接司馬限林道經二本松進入雪見遊憩區，行程約35公里，車程約1.5小時。大湖→中興派出所（入山證）→二本松解說站→松林景觀台→國家公園界碑（盡尾山登山口）→雪見遊客中心暨管理站→東洗水山登山口→北坑山登山口</p>
+        
+        <h2 style="color:#FF8800;font-weight:bold;">方式二:</h2>
+        
+        <p> 從東勢、卓蘭地區進入由中南部出發之遊客，可利用台３線由台中的東勢鎮接中47線或由苗栗的卓蘭鎮苗58線經白布帆大橋接中47線，經達觀、桃山部落（雪山坑）進入泰安鄉，至永安、大安過梅象大橋進入梅園、天狗接司馬限林道經二本松進入雪見遊憩區，行程約45公里，車程約2小時。 東勢→雙崎部落→士林攔河堰→（士林部落）→象鼻部落→永安部落→大安部（入山證）→梅園部落→天狗部落→二本松鞍部→二本松解說站。 </p>
+        
+    </div>
+
+    <div id=武陵遊客中心" class="tabcontent">
+        <h2 style="color:#FF8800;font-weight:bold;">空中運輸:</h2>
+        <p>搭宜蘭國光客運班車（宜蘭火車站前站下車 左行150公尺為國光客運宜蘭總站） (前往國光客運)宜蘭 → 武陵農場 07:00、12:40 車資： 276 元
+        
+        武陵農場 → 宜蘭 09:20、14: 05 乘車時間 ： 2小時45分
+        搭豐原客運班車（台中火車站前搭乘）(前往豐原客運)先搭台中-豐原-梨山後再轉梨山--武陵農場 車程約6小時,一天一班
+        來: 台中--梨山 08:00 梨山--武陵 16:00 
+        回: 武陵--梨山--台中6:30-14:30  豐原客運查詢電話：(04) 2523-4175 #228  </p>
     </div>
     
     
