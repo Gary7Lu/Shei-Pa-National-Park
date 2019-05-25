@@ -367,7 +367,6 @@
         <button class="tablinks" onclick="openCity(event, '地質地形')">地質地形</button>
         <button class="tablinks" onclick="openCity(event, '動物資源')">動物資源</button>
         <button class="tablinks" onclick="openCity(event, '植物資源')">植物資源</button>
-        <button class="tablinks" onclick="openCity(event, '戰役古蹟')">戰役古蹟</button>
         <button class="tablinks" onclick="openCity(event, '人文史蹟')">人文史蹟</button>
         <button class="tablinks" onclick="openCity(event, '相關影音')">相關影音</button>
     </div>
@@ -404,23 +403,14 @@
     </div>
     
     
-    <div id="戰役古蹟" class="tabcontent">
-        <h2> 翟山 </h2>
-        <p></p>
-        <h2> 毋忘 </h2>
-        <p></p>
-        <h2> 戰史館 </h2>
-        <p></p>
-        
-    </div>
-    
     <div id="人文史蹟" class="tabcontent">
         <h2> 文臺 </h2>
-        <p></p>
+        <p>雪霸園區涵括了新竹縣五峰鄉、新竹縣尖石鄉、苗栗縣泰安鄉、和臺中市和平區。除五峰鄉有少數賽夏族分佈外，其餘各區（包括五峰鄉）原住民族均為泰雅族。泰雅族與賽夏族雖聚居於雪霸園區的範圍外，但本國家公園的全域，古來是他們的生活舞台，生活習俗已與雄偉的大自然渾為一體。
+
+而許多步道的形成，可追溯至原住民族的獵徑、姻親道路系統，路徑向高山、溪流、高山水池，甚至山峰的絕頂伸展，都遺留著這些山岳民族的足跡與智慧。廣大山區裡的各據點都有原來的稱謂與傳說，許多山岳名都是依照泰雅族語的原稱而命名的，如聖稜線中的凱蘭崑特山、穆特勒布山及武陵四秀中的喀拉業山等。</p>
         <h2> 風獅爺 </h2>
         <p></p>
-        <h2> 羅厝媽祖 </h2>
-        <p></p>
+
     </div>
     
     <div id="相關影音" class="tabcontent">
@@ -456,32 +446,32 @@
 
         <div class="mySlides fade">
             <div class="numbertext">1 / 5</div>
-            <img style="width:100%;height:400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQCFj0ADar4qmp2KMNd0b7Sht7K2IJ9qc7vrBnW6NvJQiyEtEzQ">
-            <div class="text"> 水獺</div>
+            <img style="width:100%;height:400px" src="">
+            <div class="text"> 獺</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">2 / 5</div>
-            <img style="width:100%;height:400px" src="http://4.bp.blogspot.com/-03iiuAoe_nw/VL5R5tjCLZI/AAAAAAAA1rU/Fa4gaoxWcVg/s1600/DSC_0828.jpg" >
-            <div class="text"> 翟山坑道</div>
+            <img style="width:100%;height:400px" src="" >
+            <div class="text"> 坑道</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">3 / 5</div>
-            <img style="width:100%;height:400px" src="http://pic.pimg.tw/martin0912/1324641420-2164420230_l.png">
-            <div class="text"> 毋忘在莒</div>
+            <img style="width:100%;height:400px" src="">
+            <div class="text"> 毋忘</div>
         </div>
         
         <div class="mySlides fade">
             <div class="numbertext">4 / 5</div>
-            <img style="width:100%;height:400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLv6yM48o24gzMcrLGibXEMLn2lR9pBG5D-7HLwND_-MVrQ-jCbg">
-            <div class="text"> 八二三戰史館</div>
+            <img style="width:100%;height:400px" src="">
+            <div class="text"> 八二</div>
         </div>
         
         <div class="mySlides fade">
             <div class="numbertext">5 / 5</div>
-            <img style="width:100%;height:400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUapL94vVzfeDLCDvoock4Ns8n7-Na3qVdam7wFlJ-SS2m1NIj">
-            <div class="text"> 風獅爺</div>
+            <img style="width:100%;height:400px" src="">
+            <div class="text"> 獅爺</div>
         </div>
         
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
