@@ -230,6 +230,49 @@
                 font-size: 11px
             }
         }
+        
+        
+        /*tabs*/
+     body {
+        font-family: Arial;
+    }
+    /* Style the tab */
+    
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+    /* Style the buttons inside the tab */
+    
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 12px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+    /* Change background color of buttons on hover */
+    
+    .tab button:hover {
+        background-color: #ddd;
+    }
+    /* Create an active/current tablink class */
+    
+    .tab button.active {
+        background-color: #ccc;
+    }
+    /* Style the tab content */
+    
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
     </style>
 
     <html>
@@ -314,17 +357,98 @@
 
     <h2 class="header-level-2" id="C">公園特色介紹:</h2>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
+    
+    <p></p>
+    <body>
 
-        <p>1.地質地形:大霸尖山是雪霸國家公園最重要的兩座山之一。大霸尖山的形狀很特殊，好像一個很大的岩石酒桶，這個岩石酒桶是變質砂岩所構成，山頂則以厚層變質砂岩為主，此層即白冷層頂部的青山段砂岩。在大霸頂部的砂岩層其位態近乎水平，主要是因此岩層恰位於雪霸背斜的軸部位置;而大霸尖山山形呈桶狀之原因，主要受砂岩中節理的發育所控制，於地層平緩疊置之箱型背斜軸部發育形成。</p>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, '氣候水文')" id="defaultOpen">氣候水文</button>
+    <button class="tablinks" onclick="openCity(event, '地質地形')">地質地形</button>
+    <button class="tablinks" onclick="openCity(event, '動物資源')">動物資源</button>
+    <button class="tablinks" onclick="openCity(event, '植物資源')">植物資源</button>
+    <button class="tablinks" onclick="openCity(event, '戰役古蹟')">戰役古蹟</button>
+    <button class="tablinks" onclick="openCity(event, '人文史蹟')">人文史蹟</button>
+    <button class="tablinks" onclick="openCity(event, '相關影音')">相關影音</button>
+</div>
 
-        <p>2.動物資源:</p>
-        <p>鳥類:冠羽畫眉為園區內常見的特有種鳥類，全區已紀錄有154種鳥類，包括台灣山鷓鴣、黑長尾雉、台灣噪眉、冠羽畫眉、台灣叢樹鶯等台灣特有種。</p>
-        <p>魚類:在大安溪系、大甲溪系、蘭陽溪系、德基水庫等地共調查發現了17種魚類。大甲溪是台灣魚類分布的海拔最高點，一般溪魚分布的上限約為1,800公尺，分布於大甲溪上游的櫻花鉤吻鮭則可達1,800公尺以上。台灣石賓、台灣間爬岩鰍、櫻花鉤吻鮭、台灣纓口鰍、明潭吻蝦虎魚、短吻紅斑蝦虎魚為已紀錄到的台灣特有種。</p>
-        <p>哺乳動物:園區的哺乳動物共紀錄58種，大型的有台灣黑熊、台灣野山羊、台灣野豬、台灣水鹿；中型的有台灣獼猴、山羌、石虎、白鼻心；小型的則有穿山甲、食蟹獴、鼬獾、黃喉貂、各種鼠類及蝙蝠。其中，台灣黑熊為野生動物保育法所列瀕臨絕種保育類動物，台灣水鹿在野外的族群量亦極低，台灣野山羊亦屬珍貴稀有保育類動物</p>
+<div id="氣候水文" class="tabcontent">
+    <h2>氣候</h2>
+    <p>四面無高山屏障，風力強勁，冬季乾冷，春季多霧，年降雨量大於年蒸發量 ，使島上出現半乾旱的現象，不宜耕作，故島上農作以耐旱性雜糧為主。</p>
+    <h2>水文</h2>
+    <p>以平均狀況來看，五、六月類似內地梅雨季節，經常降雨不止是唯一降雨量超過蒸發量的季節，七月、八月夏季雷雨或颱風，雨量豐但無法截用而流失，並甚至帶來災害，十月至翌年二月則為旱季。由於受地形影響，金門地區主要水源以人工湖庫及地下水為主。</p>
+</div>
 
-        <p>3.植物資源:大多屬於東亞植物地區之特有屬，推測其於冰河時期並未受北方大陸冰河蔓延之破壞，使大霸尖山、雪山稜線附近高山留存了許多地質年代以來的孑遺植物，如自第三紀上新世(距今約180萬年)留存至今的臺灣檫樹，主要產於園內的大鹿林道、大雪山林道、雪見等地區，而檫樹屬植物全世界僅有三種，分別產於北美、大陸及臺灣，故有其特殊之學術地位。</p>
-        <p>4.人文資源:雪見鄰近地區具有十分豐富薈萃的人文史蹟資源。其原住民文化主要為泰雅族之北勢群，分布於大安溪中游兩岸。雪見地區瀰漫著濃厚的文化特色，其中以北坑溪古道最具盛名，原為大甲溪泰雅族原住民遷移遊獵的山徑，古道中泰雅族原住民及日治時期所遺留下來的歷史事件與遺址，是瞭解日治時期竹苗地區樟腦採集與理蕃政策的最佳地點。</p>
-           
+<div id="地質地形" class="tabcontent">
+    <h2>地質</h2>
+    <p> 以瓊林尚義一帶將金門本島分成東西兩半部，東半部明顯地大量出露花崗片麻岩，西半部則是以紅土層為主體。</p>
+    <h2>地形</h2>
+    <p> (一)丘陵地形 : 以花崗片麻岩為主。</p>
+    <p> (二)臺地地形 : 金門和烈嶼的花崗岩地區臺地高度要比紅土層高度為高，原因為西部早期環境有利於大規模、厚層的紅土生成。</p>
+    <p> (三)低地、窪地 : 以中山紀念林與白乳山附近出現的雨蝕溝最為顯著，其成因與第四紀以來的環境變遷有密切關係，在景觀及環境教育上皆有價值。</p>
+    <p> (四)水體 : 金門地區陸上之水體除少數天然湖外，多為人工開發或築堤而成之湖庫，提高了此地環境的負載力，也為生物提供良好棲息和覓食地點。</p>
+    <p> (五)沙丘、沙灘、海岸 : 金門東北、東南及烈嶼的東北至東南，為花崗片麻岩丘陵地被海水侵蝕而成之崖面，並且露出花崗片麻岩被岩脈侵入的景象。</p>
+</div>
+
+<div id="動物資源" class="tabcontent">
+    <h2>(一)鳥類 </h2>
+    <p>鳥類是金門最具特色的野生動物資源，於鹹淡水溼地、潮間 帶以及陸地田野、樹林、灌叢間，均可看到多樣且豐富的鳥類資源，其中過境鳥佔45%為最大宗。金門地區冬候鳥中以鸕鶿、赤頸鴨、小水鴨等為主要鳥種，留鳥以白頭翁、麻雀、八哥、珠頸斑鳩及喜鵲等族群量較多；夏候鳥則以家燕、杜鵑科鳥類及栗喉蜂虎 等最具特色。</p>
+    <h2>(二)哺乳類</h2>
+    <p>陸域哺乳動物中，除歐亞水獺體型較大外，其餘均為小型野生動物。歐亞水獺同時列名於國際與國內之保育類野生動物名錄，目前金門地區各主要溼地水體，如前埔溪流域、雙鯉湖及慈湖周邊、后豐港地區、金沙溪流域均可發現水獺活動痕跡，族群尚稱穩定，仍需與野生動物保育主管機關合作加強其動態調查及棲所之保護。</p>
+</div>
+
+ <div id="植物資源" class="tabcontent">
+    <h2>特色比較</h2>
+    <p>金門與台灣在植群組成上差異性仍甚大，如殼斗科(Fagaceae)在台灣為相當重要之一科，約產五十餘種，然在金門迄今未發現；金門之植物種類另一與台灣差異甚大堵，為樟科之潺槁樹，此種為目前金門自生木本植物中蓄積量最豐者。惟未見於台灣。</p>
+</div>
+
+
+<div id="戰役古蹟" class="tabcontent">
+    <h2> 翟山坑道 </h2>
+    <p>戰時供登陸小艇搶灘運補用，坑內並有停靠碼頭。一進入坑道內即可感受它的震撼力，靠著新架設的欄杆，望著深遂的倒影。在金門國家公園管理處重新整建後，翟山坑道於八十七年七月正式對外開放。</p>
+    <h2> 毋忘在莒 </h2>
+    <p>太武山上至三分之二處的途中，您就可發現由先總統 蔣公親頒題字的「毋忘在莒」四字的石塊矗立於上，誠然有提高士氣的精神在，勒石下有中興亭，旁有太武亭。</p>
+    <h2> 八二三戰史館 </h2>
+    <p>館內陳設有參與八二三戰役時期的各式武器、文物及圖片等，館外並陳列曾經參戰之飛機、戰車、榴彈砲兵器等。</p>
+    
+</div>
+
+<div id="人文史蹟" class="tabcontent">
+    <h2> 文臺寶塔 </h2>
+    <p>金門有三大古塔，一是太武山倒影塔，二是水頭村的矛山塔，三是舊金城的文台寶塔，相傳皆是西元1387年江夏侯周德興建築金門城時，衡度水陸形勢所建，以做為航海之標誌。而太武山的倒影塔，毁於大地震；水頭的矛山塔，又因軍事緣故而拆毁。唯一僅存的是文台寶塔。</p>
+    <h2> 風獅爺 </h2>
+    <p>由於東北季風旺盛，金門的居民自清朝時期，就開始設立鎮風的辟邪物來 鎮風驅邪，而在金門最多的鎮風辟邪物就是風獅爺。</p>
+    <h2> 羅厝媽祖公園 </h2>
+    <p>烈嶼羅厝媽祖公園臨近九宮碼頭，位在羅厝後山制高點，可俯瞰羅厝漁港與東林濱海公園，公園裡最引人注目的是一尊高聳的媽祖石像，為羅厝新地標，這尊媽祖聖像材質為花崗岩。</p>
+</div>
+
+<div id="相關影音" class="tabcontent">
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n3eVALwyMEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
             <p></p>
             <div class="slideshow-container">
 
