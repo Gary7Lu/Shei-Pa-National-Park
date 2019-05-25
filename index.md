@@ -1,4 +1,3 @@
-<html>
 <center>
     <h1 style="font-size:40px;font-weight:bold;">雪霸國家公園</h1></center>
 <p>
@@ -521,8 +520,7 @@
                 }
             </script>
 
-    </div>
-    </div>
+   
     <p></p>
 
     <h2 class="header-level-2" id="D">交通資訊:</h2>
@@ -672,4 +670,3 @@
         <a class="button" id="home" href="https://jim99224.github.io/HomePage/">返回主頁</a>
     </div>
 
-    </html>
