@@ -469,34 +469,29 @@
             <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
+            <div class="numbertext">1 / 4</div>
             <img style="width:100%;height:400px" src="http://i.epochtimes.com/assets/uploads/2013/03/1303120149481758-600x400.jpg">
             <div class="text"> 櫻花鉤吻鮭 </div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
+            <div class="numbertext">2 / 4</div>
             <img style="width:100%;height:400px" src="http://np.cpami.gov.tw/images/com_fwgallery/files/516/33.jpg" >
             <div class="text"> 台灣獼猴 </div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
+            <div class="numbertext">3 / 4</div>
             <img style="width:100%;height:400px" src="http://g.udn.com.tw/upfiles/B_AA/AAC3343/PSN_PHOTO/623/f_18833623_1.jpg">
             <div class="text"> 棣慕華鳳仙花 </div>
         </div>
         
         <div class="mySlides fade">
-            <div class="numbertext">4 / 5</div>
-            <img style="width:100%;height:400px" src="">
-            <div class="text"> 八二</div>
+            <div class="numbertext">4 / 4</div>
+            <img style="width:100%;height:400px" src="https://cdntwrunning.biji.co/800_8341cc285c2234a7c530d1df1d994d1c.png">
+            <div class="text"> 台灣黑熊 </div>
         </div>
         
-        <div class="mySlides fade">
-            <div class="numbertext">5 / 5</div>
-            <img style="width:100%;height:400px" src="">
-            <div class="text"> 獅爺</div>
-        </div>
         
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -509,7 +504,7 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
+
     </div>
 
     <script>
@@ -545,8 +540,7 @@
         }
     </script>
         
-        
-        
+              
         <p></p>
 
     </div>
