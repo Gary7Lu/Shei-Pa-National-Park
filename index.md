@@ -426,7 +426,7 @@
     
      <div id="植物資源" class="tabcontent">
         <h2>特色植物</h2>
-        <p>雪霸園區的植物種類繁多，其中棣慕華風仙花特產於觀霧地區，全世界僅一產地，族群亦小，須嚴加保護。 </p>
+        <p>雪霸園區的植物種類繁多，其中棣慕華鳳仙花特產於觀霧地區，全世界僅一產地，族群亦小，須嚴加保護。 </p>
         <h2>特色植物</h2>
         <p>雪霸的植物種類大多屬於東亞植物地區之特有屬，自第三紀上新世(距今約180萬年)留存至今的臺灣檫樹，主要產於園內的大鹿林道、大雪山林道、雪見等地區，而檫樹屬植物全世界僅有三種，分別產於北美、大陸及臺灣，故有其特殊之學術地位。</p>
     </div>
@@ -435,9 +435,6 @@
     <div id="人文史蹟" class="tabcontent">
         <h2> 原住民文化 </h2>
         <p>泰雅族與賽夏族雖聚居於雪霸園區的範圍外，但本國家公園的全域，古來是他們的生活舞台，生活習俗已與雄偉的大自然渾為一體。而許多步道的形成，可追溯至原住民族的獵徑、姻親道路系統，路徑向高山、溪流、高山水池，甚至山峰的絕頂伸展，都遺留著這些山岳民族的足跡與智慧。廣大山區裡的各據點都有原來的稱謂與傳說，許多山岳名都是依照泰雅族語的原稱而命名的，如聖稜線中的凱蘭崑特山、穆特勒布山及武陵四秀中的喀拉業山等。</p>
-        <h2> 風獅爺 </h2>
-        <p></p>
-
     </div>
     
     <div id="相關影音" class="tabcontent">
@@ -473,20 +470,20 @@
 
         <div class="mySlides fade">
             <div class="numbertext">1 / 5</div>
-            <img style="width:100%;height:400px" src="">
-            <div class="text"> 獺</div>
+            <img style="width:100%;height:400px" src="http://i.epochtimes.com/assets/uploads/2013/03/1303120149481758-600x400.jpg">
+            <div class="text"> 櫻花鉤吻鮭 </div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">2 / 5</div>
-            <img style="width:100%;height:400px" src="" >
-            <div class="text"> 坑道</div>
+            <img style="width:100%;height:400px" src="http://np.cpami.gov.tw/images/com_fwgallery/files/516/33.jpg" >
+            <div class="text"> 台灣獼猴 </div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">3 / 5</div>
-            <img style="width:100%;height:400px" src="">
-            <div class="text"> 毋忘</div>
+            <img style="width:100%;height:400px" src="http://g.udn.com.tw/upfiles/B_AA/AAC3343/PSN_PHOTO/623/f_18833623_1.jpg">
+            <div class="text"> 棣慕華鳳仙花 </div>
         </div>
         
         <div class="mySlides fade">
