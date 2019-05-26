@@ -743,6 +743,8 @@
             <li><a href="https://www.tripadvisor.com.tw/Restaurant_Review-g13808870-d7890852-Reviews-It_s_Alice_Cafe_Food-Zhudong_Hsinchu_County.html"> tripadvisor</a></li>
             <br>
             <li><a href="https://www.booking.com/searchresults.zh-tw.html?aid=359627;label=a-no-xdKAxEc2lFYkNsZg1VPVOQS308735400373%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atiaud-297601666995%3Akwd-610371119756%3Alp1012825%3Ali%3Adec%3Adm;sid=fabd237e6184d11bf9506341efb96361;city=-287493;hyb_red=1;keep_landing=1;redirected=1;redirected_from_city=1;source=city;src=city&gclid=EAIaIQobChMI_cKn0tyI4gIVTQUqCh2JsgN6EAAYASAAEgKp5_D_BwE&">Booking.com</a></li>
+             <br>
+            <li><a href="https://www.taiwan2go.com/upload/Article/32262/2-2.jpg">Picture</a></li>
         </ul>
     </div>
     </body>
