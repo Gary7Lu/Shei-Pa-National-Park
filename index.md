@@ -1,9 +1,7 @@
 <html>
 
     <style>
-        html {
-            height: 100%;
-        }
+        
         
         body {
             background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/08/98/405814a2ba920b1.jpg");
@@ -17,7 +15,10 @@
             font-size: 18px;
             font-family: Microsoft JhengHei;
         }
-        
+        h1{
+            font-family:"微軟正黑體";
+            font-weight:bold;
+        }
         h2 {
             font-family: "微軟正黑體";
             font-weight: bold;
@@ -358,7 +359,7 @@
 
 <center>
     <h1 style="font-size:40px;font-weight:bold;">雪霸國家公園</h1></center>
-    <h2 class="header-level-2" id="A">基本資訊:</h2>
+    <h1 id="A">基本資訊:</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <ol>
             <li>
@@ -374,7 +375,7 @@
         </ol>
     </div>
 
-    <h2 class="header-level-2" id="B">國家公園標示意涵:</h2>
+    <h1 id="B">國家公園標示意涵:</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <img align="left" style="width: 100px; height: 100px;" src="https://www.spnp.gov.tw/Content/image/logo-round.png" data-type="image">
         <center>
@@ -385,7 +386,7 @@
         </center>
     </div>
 
-    <h2 class="header-level-2" id="C">公園特色介紹:</h2>
+    <h1 id="C">公園特色介紹:</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
     
     <p></p>
@@ -545,7 +546,7 @@
     </div>
 
 
-    <h2 class="header-level-2" id="D">交通資訊:</h2>
+    <h1 id="D">交通資訊:</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
     
      <body>
@@ -608,7 +609,7 @@
 
     </div>
 
-    <h2 class="header-level-2" id="E">住宿資訊:</h2>
+    <h1 id="E">住宿資訊:</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
         <p>
@@ -651,7 +652,7 @@
         </p>
     </div>
 
-    <h2 class="header-level-2" id="F">美食資訊:</h2>
+    <h1 id="F">美食資訊:</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
 
         <p>
@@ -695,7 +696,7 @@
 
     </div>
 
-    <h2 class="header-level-2">資料來源:</h2>
+    <h1>資料來源:</h1>
     <div style="background-color:#EEFFBB;border:2px black solid;padding:10px;">
         <ul>
             <li><a href="http://np.cpami.gov.tw/">台灣國家公園</a></li>
